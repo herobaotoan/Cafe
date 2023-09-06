@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>593977745756-tj8gqff6keqgial093slbk77ruoqunqq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.593977745756-tj8gqff6keqgial093slbk77ruoqunqq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCnSsmQjwJriz32_qVEO3GeMvv4fxC9H-w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>593977745756</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>rmitvn.cafe</string>
+	<key>PROJECT_ID</key>
+	<string>ios-app-4da46</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-app-4da46.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:593977745756:ios:76001d008662ad1170e199</string>
+</dict>
+</plist>
