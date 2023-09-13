@@ -13,8 +13,9 @@ struct LoginView: View {
     @State var email = ""
     @State var password = ""
     @State var signUpSuccess = false
-    @State var loginSuccess = false
+    @State var loginSuccess = true
     @State var errorMessage = ""
+    @State var UID = "LOcALAAmyoYyPN0HgjKN"
     
     func login() {
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
@@ -78,7 +79,8 @@ struct LoginView: View {
             }
             .frame(width: 300)
         } else {
-            CafeView(enable: $loginSuccess)
+//            CafeView(enable: $loginSuccess)
+            ProfileView(UID: $UID)
         }
     }
 }

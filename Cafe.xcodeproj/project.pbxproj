@@ -28,6 +28,9 @@
 		EA9B19AF2AA8564E00E0A23D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B19AE2AA8564E00E0A23D /* Order.swift */; };
 		EA9B19B12AA856B200E0A23D /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B19B02AA856B200E0A23D /* OrderViewModel.swift */; };
 		EA9B19B32AA85A8900E0A23D /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B19B22AA85A8900E0A23D /* OrderRow.swift */; };
+		EABDEA132AB1827D00A96FE8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDEA122AB1827D00A96FE8 /* ProfileView.swift */; };
+		EABDEA152AB182B100A96FE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDEA142AB182B100A96FE8 /* User.swift */; };
+		EABDEA172AB1830D00A96FE8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDEA162AB1830D00A96FE8 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		EA9B19AE2AA8564E00E0A23D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		EA9B19B02AA856B200E0A23D /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		EA9B19B22AA85A8900E0A23D /* OrderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRow.swift; sourceTree = "<group>"; };
+		EABDEA122AB1827D00A96FE8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EABDEA142AB182B100A96FE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EABDEA162AB1830D00A96FE8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +131,13 @@
 				EA9B196D2AA84B7100E0A23D /* CafeApp.swift */,
 				EA9B196F2AA84B7100E0A23D /* ContentView.swift */,
 				EA9B19AA2AA84D6900E0A23D /* LoginView.swift */,
+				EABDEA122AB1827D00A96FE8 /* ProfileView.swift */,
 				EA9B19AC2AA851FE00E0A23D /* CafeView.swift */,
 				EA9B19B22AA85A8900E0A23D /* OrderRow.swift */,
 				EA9B19AE2AA8564E00E0A23D /* Order.swift */,
+				EABDEA142AB182B100A96FE8 /* User.swift */,
 				EA9B19B02AA856B200E0A23D /* OrderViewModel.swift */,
+				EABDEA162AB1830D00A96FE8 /* UserViewModel.swift */,
 				EA9B19712AA84B7200E0A23D /* Assets.xcassets */,
 				EA9B19972AA84BBC00E0A23D /* GoogleService-Info.plist */,
 				EA9B19732AA84B7200E0A23D /* Preview Content */,
@@ -305,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABDEA132AB1827D00A96FE8 /* ProfileView.swift in Sources */,
 				EA9B19AB2AA84D6900E0A23D /* LoginView.swift in Sources */,
 				EA9B19702AA84B7100E0A23D /* ContentView.swift in Sources */,
+				EABDEA172AB1830D00A96FE8 /* UserViewModel.swift in Sources */,
 				EA9B19B32AA85A8900E0A23D /* OrderRow.swift in Sources */,
 				EA9B19AF2AA8564E00E0A23D /* Order.swift in Sources */,
+				EABDEA152AB182B100A96FE8 /* User.swift in Sources */,
 				EA9B19B12AA856B200E0A23D /* OrderViewModel.swift in Sources */,
 				EA9B196E2AA84B7100E0A23D /* CafeApp.swift in Sources */,
 				EA9B19AD2AA851FE00E0A23D /* CafeView.swift in Sources */,
