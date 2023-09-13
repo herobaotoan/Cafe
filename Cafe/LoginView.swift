@@ -13,9 +13,9 @@ struct LoginView: View {
     @State var email = ""
     @State var password = ""
     @State var signUpSuccess = false
-    @State var loginSuccess = true
+    @State var loginSuccess = false
     @State var errorMessage = ""
-    @State var UID = "LOcALAAmyoYyPN0HgjKN"
+    @State var UID = ""
     
     func login() {
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
@@ -25,6 +25,7 @@ struct LoginView: View {
             } else {
                 errorMessage = "Login success"
                 loginSuccess = true
+                UID = Auth.auth().currentUser!.uid
             }
         }
     }

@@ -39,6 +39,12 @@ class UserViewModel: ObservableObject {
             }
         }
     }
+    func updateUserName(UID: String, name: String) {
+        db.collection("user").document(UID).updateData(["name" : name])
+    }
+    func updateUserEmail(UID: String, email: String) {
+        db.collection("user").document(UID).updateData(["email" : email])
+    }
     
     func addNewOrderData(name: String, type: String) {
         db.collection("order").addDocument(data: ["name": name, "type": type])
