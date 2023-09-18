@@ -43,3 +43,43 @@ class OrderViewModel: ObservableObject {
     }
 
 }
+
+// class GameViewModel: ObservableObject {
+//     @Published var games = [Game]()
+//     private var db = Firestore.firestore()
+//     init() {
+//         getAllGameData()
+//     }
+//     func getAllGameData() {
+//         db.collection("game").addSnapshotListener { (querySnapshot, error) in
+//             guard let documents = querySnapshot?.documents else {
+//                 print("No documents")
+//                 return
+//             }
+//             self.games = documents.map { (queryDocumentSnapshot) -> Game in
+//                 let data = queryDocumentSnapshot.data()
+//                 let name = data["name"] as? String ?? ""
+//                 let platform = data["platform"] as? [String] ?? [""]
+//                 let genre = data["genre"] as? [String] ?? [""]
+//                 let developer = data["developer"] as? String ?? ""
+//                 let rating = data["rating"] as? [Int] ?? [0]
+//                 let imageURL = data["imageURL"] as? String ?? ""
+//                 let userID = data["userID"] as? String ?? ""
+//                 return Game(name: name, platform: platform, genre: genre, developer: developer, rating: rating, imageURL: imageURL, userID: userID, documentID: queryDocumentSnapshot.documentID)
+//             }
+//         }
+//     }
+//     func addNewGameData(name: String, platform: [String], genre: [String], developer: String, rating: [Int], imageURL: String, userID: String) {
+//         db.collection("game").addDocument(data: [name: name, platform: platform, genre: genre, developer: developer, rating: rating, imageURL: imageURL, userID: userID])
+//     }
+    
+//     func removeGameData(documentID: String) {
+//         db.collection("game").document(documentID).delete { (error) in
+//             if let error = error {
+//                 print("Error removing document: \(error)")
+//             } else {
+//                 print("Document successfully removed!")
+//             }
+//         }
+//     }
+// }
